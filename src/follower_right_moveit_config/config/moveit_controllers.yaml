@@ -1,0 +1,26 @@
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - interbotix_arm_controller
+    - interbotix_gripper_controller
+
+  interbotix_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - follower_right/waist
+      - follower_right/shoulder
+      - follower_right/elbow
+      - follower_right/forearm_roll
+      - follower_right/wrist_angle
+      - follower_right/wrist_rotate
+
+  interbotix_gripper_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - follower_right/left_finger
+      - follower_right/right_finger

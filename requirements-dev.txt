@@ -1,0 +1,4 @@
+# Additional Python dependencies for offline tests.
+# Install runtime dependencies / ROS packages separately first.
+pytest
+scipy

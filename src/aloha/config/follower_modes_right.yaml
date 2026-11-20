@@ -1,0 +1,17 @@
+port: /dev/ttyDXL_follower_right
+
+groups:
+  arm:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 6
+    profile_acceleration: 3
+    torque_enable: true
+
+singles:
+  gripper:
+    operating_mode: linear_position
+    profile_type: velocity
+    profile_velocity: 6
+    profile_acceleration: 3
+    torque_enable: true

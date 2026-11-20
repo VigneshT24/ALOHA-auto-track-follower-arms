@@ -1,0 +1,50 @@
+# ROS / colcon output (including nested workspaces)
+build/
+install/
+log/
+logs/
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Robot recordings and experiment output
+left_supported_tests/
+right_supported_tests/
+rosbag2_*/
+*.bag
+*.db3
+*.mcap
+*.log
+core
+core.*
+
+# Keep source calibration YAMLs, meshes, .setup_assistant, COLCON_IGNORE,
+# upstream licenses and the supplied models/yolov8m.pt under version control.

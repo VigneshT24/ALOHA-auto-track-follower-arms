@@ -1,0 +1,51 @@
+=== aloha ===
+https://github.com/Interbotix/aloha.git
+4fa6b2c4428f5334441a7bee5ab2b2e8071cff93
+ M aloha/constants.py
+ M aloha/real_env.py
+ M config/follower_modes_left.yaml
+ M config/follower_modes_right.yaml
+ M config/rs_cam.yaml
+ M launch/aloha_bringup.launch.py
+
+=== interbotix_xs_driver ===
+https://github.com/Interbotix/interbotix_xs_driver.git
+da27b8b2b6c7677844f74581b82c01829a834e1c
+ M CMakeLists.txt
+
+=== interbotix_ros_core ===
+https://github.com/Interbotix/interbotix_ros_core.git
+af18d4fe24ba08e09a0f1e92afaca1863e3205de
+ D interbotix_ros_common_drivers/COLCON_IGNORE
+ D interbotix_ros_xseries/COLCON_IGNORE
+ M interbotix_ros_xseries/interbotix_xs_sdk/CMakeLists.txt
+?? interbotix_ros_common_drivers/interbotix_ros_footswitch/COLCON_IGNORE
+?? interbotix_ros_common_drivers/interbotix_ros_footswitch/interbotix_footswitch_driver/COLCON_IGNORE
+?? interbotix_ros_common_drivers/interbotix_ros_footswitch/interbotix_footswitch_driver/include/interbotix_footswitch_driver/COLCON_IGNORE
+?? interbotix_ros_common_drivers/interbotix_ros_footswitch/interbotix_footswitch_msgs/COLCON_IGNORE
+?? interbotix_ros_slate/interbotix_ros_slate/COLCON_IGNORE
+?? interbotix_ros_slate/interbotix_slate_driver/COLCON_IGNORE
+?? interbotix_ros_slate/interbotix_slate_driver/include/interbotix_slate_driver/COLCON_IGNORE
+?? interbotix_ros_slate/interbotix_slate_msgs/COLCON_IGNORE
+
+=== interbotix_ros_manipulators ===
+https://github.com/Interbotix/interbotix_ros_manipulators.git
+b66d5b905725351dd71d3251a06cd3f4c777940f
+ D interbotix_ros_xsarms/examples/interbotix_xsarm_dual_joy/COLCON_IGNORE
+ M interbotix_ros_xsarms/interbotix_xsarm_descriptions/urdf/control.urdf.xacro
+ D interbotix_ros_xsarms/interbotix_xsarm_perception/COLCON_IGNORE
+?? interbotix_ros_xsarms/examples/interbotix_xsarm_joy/COLCON_IGNORE
+?? interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface/COLCON_IGNORE
+?? interbotix_ros_xsarms/examples/interbotix_xsarm_pid/include/interbotix_xsarm_pid/COLCON_IGNORE
+?? interbotix_ros_xsarms/examples/interbotix_xsarm_puppet/COLCON_IGNORE
+?? interbotix_ros_xsarms/interbotix_xsarm_moveit/COLCON_IGNORE
+
+=== interbotix_ros_toolboxes ===
+https://github.com/Interbotix/interbotix_ros_toolboxes.git
+f52234371b9ec1cb1f5ee8241da32e6b8476fa5c
+ D interbotix_common_toolbox/interbotix_landmark_modules/COLCON_IGNORE
+ D interbotix_io_toolbox/COLCON_IGNORE
+ D interbotix_perception_toolbox/COLCON_IGNORE
+ D interbotix_rpi_toolbox/COLCON_IGNORE
+?? interbotix_common_toolbox/interbotix_moveit_interface/include/interbotix_moveit_interface/COLCON_IGNORE
+

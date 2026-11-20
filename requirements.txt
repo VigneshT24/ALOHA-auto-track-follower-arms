@@ -1,0 +1,10 @@
+# Python inference dependencies only; ROS/MoveIt/RealSense come from the ROS setup.
+# Use Python 3.10 with access to the ROS Humble system packages.
+# Keep NumPy compatible with the Humble system cv_bridge binary.
+numpy<2
+PyYAML
+-r requirements-yolo.txt
+
+# Use system python3-opencv alongside ROS cv_bridge rather than adding another
+# OpenCV wheel here. Install the desired CPU/CUDA PyTorch build first.
+# This is a dependency list, not a tested version lockfile.

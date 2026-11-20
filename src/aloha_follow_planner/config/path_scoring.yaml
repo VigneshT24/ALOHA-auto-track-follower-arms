@@ -1,0 +1,32 @@
+/**:
+  ros__parameters:
+    # Joint order: waist, shoulder, elbow, forearm_roll, wrist_angle, wrist_rotate.
+    score_joint_weights: [1.0, 3.0, 2.0, 1.5, 1.5, 1.5]
+    score_excursion_weight: 2.0
+    score_margin_weight: 2.0
+    score_shoulder_gravity_weight: 3.0
+    score_elbow_gravity_weight: 1.5
+    # Extra payload at gripper_link; excludes tool/loads absent from the URDF.
+    payload_mass_kg: 0.0
+    planning_budget: 12.0
+    plan_request_params:
+      planning_time: 0.75
+      planning_attempts: 1
+      max_velocity_scaling_factor: 0.1
+      max_acceleration_scaling_factor: 0.1
+    plans_per_orientation: 2
+    ik_timeout: 0.08
+    waypoint_step: 0.04
+    waypoint_tolerance: 0.035
+    diagnostic_period: 1.0
+    # Final convergence only; intermediate samples do not require settling.
+    waypoint_timeout: 20.0
+    execution_timeout: 240.0
+    # Shared nominal RViz/execution schedule. The path clock can pause on lag.
+    tracking_speed: 0.08
+    tracking_period: 0.1
+    tracking_pause_error: 0.06
+    tracking_error_limit: 0.08
+    stall_timeout: 5.0
+    stall_min_progress: 0.003
+    stall_error_threshold: 0.048

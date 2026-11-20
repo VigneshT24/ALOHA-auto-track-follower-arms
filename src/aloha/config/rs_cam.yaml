@@ -1,0 +1,35 @@
+/cam_high/camera:
+  ros__parameters:
+    rgb_camera.profile: 640x480x60
+    serial_no: '021222070323'
+    align_depth:
+      enable: true
+    pointcloud:
+      enable: true
+
+/cam_low/camera:
+  ros__parameters:
+    rgb_camera.profile: 640x480x60
+    serial_no: '215322071290'
+    align_depth:
+      enable: true
+    pointcloud:
+      enable: true
+
+/cam_left_wrist/camera:
+  ros__parameters:
+    rgb_camera.profile: 640x480x60
+    serial_no: '346522074969'
+    align_depth:
+      enable: true
+    pointcloud:
+      enable: true
+
+/cam_right_wrist/camera:
+  ros__parameters:
+    rgb_camera.profile: 640x480x60
+    serial_no: '050422070475'
+    align_depth:
+      enable: true
+    pointcloud:
+      enable: true
