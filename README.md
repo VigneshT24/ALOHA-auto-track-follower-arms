@@ -52,6 +52,13 @@ Use a Python 3.10 environment that can import the system ROS packages. An unrela
 
 A clean-machine installation from this snapshot has **not** been validated yet. Install the platform dependencies before building; copying this repository alone is not a complete system installation.
 
+## First Step
+
+Clone the repo of all its content:
+```bash
+git clone https://github.com/VigneshT24/ALOHA-auto-track-follower-arms.git
+```
+
 ## Existing Interbotix installation or bundled source?
 
 This choice depends on the software already installed, not the computer brand. A System76 machine does not need different project code.
